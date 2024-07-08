@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hr">
+        <p class="hearts">
+            <img class="corazon" src="/imagen/0c30d92864f5d01a93a702e932a4dd8f.png" alt="Corazón">
+        </p> <span class="alurageek-1">AluraGeek</span>
+    </header>
+    <main>
+        <div class="product-list">
+            <section id="productList">
+                <h2>Lista de Productos</h2>
+                <div id="products"></div>
+            </section>
+        </div>
+        <div class="product-details">
+            <form id="productForm">
+                <div>
+                    <label for="productName">Nombre del Producto:</label>
+                    <input type="text" id="productName" name="productName" required>
+                </div>
+                <div>
+                    <label for="productDescription">Descripción:</label>
+                    <textarea id="productDescription" name="productDescription" required></textarea>
+                </div>
+                <div>
+                    <label for="productPrice">Valor:</label>
+                    <input type="number" id="productPrice" name="productPrice" required>
+                </div>
+                <div>
+                    <label for="productImage">Imagen URL:</label>
+                    <input type="url" id="productImage" name="productImage" required>
+                </div>
+                <button type="submit">Agregar Producto</button>
+            </form>
+            <div id="editFormContainer" style="display:none;">
+                <form id="editForm">
+                    <div>
+                        <label for="editProductName">Nombre del Producto:</label>
+                        <input type="text" id="editProductName" name="editProductName" required>
+                    </div>
+                    <div>
+                        <label for="editProductDescription">Descripción:</label>
+                        <textarea id="editProductDescription" name="editProductDescription" required></textarea>
+                    </div>
+                    <div>
+                        <label for="editProductPrice">Valor:</label>
+                        <input type="number" id="editProductPrice" name="editProductPrice" required>
+                    </div>
+                    <div>
+                        <label for="editProductImage">Imagen URL:</label>
+                        <input type="url" id="editProductImage" name="editProductImage" required>
+                    </div>
+                    <button type="submit">Guardar Cambios</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p class="hearts">
+                <img class="corazon" src="/imagen/0c30d92864f5d01a93a702e932a4dd8f.png" alt="Corazón">
+            </p>
+            <span class="alurageek">AluraGeek</span>
+            <p>DESARROLLADO POR SANTIAGO GARCIA MOJICA</p><br>
+            <p>+57 322 - 485 - 6076 / tronik5231@gmail.com</p> <br>
+            <p>BOGOTÁ DC</p><br>
+            <p>2024</p><br>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

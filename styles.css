@@ -1,0 +1,179 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* Encabezado */
+header {
+    background-color: #5300C8;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.corazon {
+    width: 158px;
+    height: 106px;
+}
+
+.hearts {
+    font-size: 20px;
+}
+
+.hearts,
+.alurageek-1 {
+    display: inline-block;
+    vertical-align: middle; /* Alineación vertical central */
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.alurageek-1 {
+    font-size: 35px;
+    margin-left: 10px;
+    padding-bottom: 10px; /* Espacio inferior */
+    font-family: "Press Start 2P", system-ui;
+}
+
+/* Contenedor principal */
+main {
+    display: flex; /* Usamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuimos los elementos a los extremos */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de productos a la izquierda */
+.product-list {
+    width: 45%; /* Ancho fijo para la lista de productos */
+}
+
+/* Detalles del producto a la derecha */
+.product-details {
+    width: 45%; /* Ancho fijo para los detalles del producto */
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5300C8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: #5300C8;
+}
+
+/* Lista de productos */
+#productList {
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centramos el contenido dentro del div producto */
+}
+
+.product img {
+    width: 100%; /* Imágenes responsivas que ocupan el ancho del contenedor */
+    max-width: 200px; /* Tamaño máximo para las imágenes */
+    height: auto; /* Altura automática para mantener las proporciones */
+    object-fit: cover; /* Ajuste para mantener las proporciones */
+}
+
+.product h3, .product p, .product span {
+    margin: 5px 0;
+}
+
+/* Pie de página */
+section.footer {
+    background-color: #5300C8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.corazon {
+    width: 158px;
+    height: 106px;
+}
+
+p.hearts {
+    font-size: 30px;
+}
+
+.hearts,
+.alurageek {
+    display: inline-block;
+    vertical-align: middle; /* Alineación vertical central */
+}
+
+.alurageek {
+    font-size: 56px;
+    margin-left: 10px;
+    padding-bottom: 20px; /* Espacio inferior */
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column; /* Apilamos los elementos en pantallas pequeñas */
+    }
+
+    .product-list,
+    .product-details {
+        width: 100%; /* Ocupan el ancho completo en pantallas pequeñas */
+    }
+
+    .product img {
+        max-width: 150px;
+    }
+
+    .alurageek {
+        font-size: 36px;
+    }
+}

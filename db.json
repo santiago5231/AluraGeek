@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "xbox clasic",
+      "description": "xbox 2001 original sin uso memoria 2TB.",
+      "price": 1500000,
+      "imageUrl": "https://teknoscene.com/wp-content/uploads/2021/09/Xbox.png",
+      "id": "6c28"
+    },
+    {
+      "id": "8328",
+      "name": "Nintendo Switch",
+      "description": "Nintendo sw",
+      "price": 950000,
+      "imageUrl": "https://www.nintendo.com/eu/media/images/08_content_images/systems_5/nintendo_switch_3/nintendo_switch_oled/CI_NSwitch_main.jpg"
+    },
+    {
+      "id": "bee2",
+      "name": "PS5",
+      "description": "Playstation JUEGA COMO NUNCA ANTES®",
+      "price": 3500000,
+      "imageUrl": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-dualsense-image-block-01-en-16nov23?$1600px--t$"
+    },
+    {
+      "id": "c6e5",
+      "name": "XBOX SERIES X",
+      "description": "LA XBOX MÁS RÁPIDA Y MÁS POTENTE DE LA HISTORIA",
+      "price": 2100000,
+      "imageUrl": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png"
+    }
+  ]
+}
