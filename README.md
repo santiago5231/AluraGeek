@@ -4,6 +4,8 @@ se recomienda instalar json.server y configurar su puerto a 3001 para que el cru
 ya que en el repositorio pages no corre por el packete faltante por falta de espacio puedes correlo sin problema desde tu visual
 
 comandos :
+
+npm install
 npm install json-server
 
 
