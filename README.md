@@ -6,6 +6,8 @@ ya que en el repositorio pages no corre por el packete faltante por falta de esp
 comandos :
 
 npm install
+
+
 npm install json-server
 
 
