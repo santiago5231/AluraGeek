@@ -5,4 +5,6 @@ ya que en el repositorio pages no corre por el packete faltante por falta de esp
 
 comandos :
 npm install json-server
+
+
 npx json-server --watch db.json --port 3001
